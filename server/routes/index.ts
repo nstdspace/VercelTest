@@ -1,4 +1,4 @@
 export default eventHandler((event) => {
   const storage = useStorage("assets:server")
-  return storage.getKeys()
+  return storage.getItem("test.banana")
 });
